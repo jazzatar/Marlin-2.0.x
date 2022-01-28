@@ -2676,7 +2676,7 @@
 #if PIN_EXISTS(FAN)
   #define HAS_FAN0 1
 #endif
-#if PIN_EXISTS(FAN0)
+#if _HAS_FAN(1)
   #define HAS_FAN1 1
 #endif
 #if _HAS_FAN(2)
